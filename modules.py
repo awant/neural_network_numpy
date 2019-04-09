@@ -1,6 +1,5 @@
 import numpy as np
 
-
 # **Module** is an abstract class which defines fundamental methods necessary for a training a neural network.
 
 
@@ -261,7 +260,7 @@ class Linear(Module):
 
     def __repr__(self):
         s = self.W.shape
-        return 'Linear %d -> %d'.format(s[1], s[0])
+        return 'Linear {} -> {}'.format(s[1], s[0])
 
 
 # ## 2. SoftMax
